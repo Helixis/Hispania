@@ -1,0 +1,17 @@
+abbreviation: BS
+available: true
+classes: 32
+colour: 15
+id: 2
+label: SUPP
+longName: basic supplies
+name: Basic Supplies
+penaltyLength: 24
+penaltyLowerBound: 6
+price: 6867
+sprite:
+  filename: cargoes/basic-supplies.png
+  left: 0
+  top: 0
+unitName: Crates
+weight: 4

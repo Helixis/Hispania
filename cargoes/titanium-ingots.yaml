@@ -1,0 +1,17 @@
+abbreviation: TI
+available: true
+classes: 16
+colour: 169
+id: 11
+label: TITA
+longName: titanium ingots
+name: Titanium Ingots
+penaltyLength: 40
+penaltyLowerBound: 20
+price: 4728
+sprite:
+  filename: cargoes/titanium-ingots.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

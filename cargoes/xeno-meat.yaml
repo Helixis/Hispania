@@ -1,0 +1,17 @@
+abbreviation: XM
+available: true
+classes: 160
+colour: 180
+id: 16
+label: XENM
+longName: xeno meat
+name: Xeno Meat
+penaltyLength: 225
+penaltyLowerBound: 30
+price: 3988
+sprite:
+  filename: cargoes/xeno-meat.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

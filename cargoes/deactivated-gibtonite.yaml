@@ -1,0 +1,17 @@
+abbreviation: DG
+available: true
+classes: 288
+colour: 146
+id: 8
+label: GIBT
+longName: deactivated gibtonite
+name: Deactivated Gibtonite
+penaltyLength: 241
+penaltyLowerBound: 14
+price: 5222
+sprite:
+  filename: cargoes/deactivated-gibtonite.png
+  left: 0
+  top: 0
+unitName: Items
+weight: 2

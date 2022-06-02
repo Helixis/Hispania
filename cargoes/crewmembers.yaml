@@ -1,0 +1,17 @@
+abbreviation: CR
+available: true
+classes: 1
+colour: 152
+id: 0
+label: CREW
+longName: crewmembers
+name: Crewmembers
+penaltyLength: 22
+penaltyLowerBound: 0
+price: 5633
+sprite:
+  filename: cargoes/crewmembers.png
+  left: 0
+  top: 0
+unitName: Passengers
+weight: 1

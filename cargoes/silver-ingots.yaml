@@ -1,0 +1,17 @@
+abbreviation: SV
+available: true
+classes: 16
+colour: 23
+id: 3
+label: SILV
+longName: silver ingots
+name: Silver Ingots
+penaltyLength: 241
+penaltyLowerBound: 14
+price: 5263
+sprite:
+  filename: cargoes/silver-ingots.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

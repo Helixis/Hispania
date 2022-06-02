@@ -1,0 +1,17 @@
+abbreviation: ME
+available: true
+classes: 1056
+colour: 45
+id: 6
+label: MECH
+longName: mechs
+name: Mechs
+penaltyLength: 128
+penaltyLowerBound: 15
+price: 6743
+sprite:
+  filename: cargoes/mechs.png
+  left: 0
+  top: 0
+unitName: Items
+weight: 32

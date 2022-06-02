@@ -1,0 +1,17 @@
+abbreviation: WE
+available: true
+classes: 544
+colour: 3
+id: 47
+label: WEAP
+longName: weapons
+name: Weapons
+penaltyLength: 249
+penaltyLowerBound: 6
+price: 6209
+sprite:
+  filename: cargoes/weapons.png
+  left: 0
+  top: 0
+unitName: Items
+weight: 1

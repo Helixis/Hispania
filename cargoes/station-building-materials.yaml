@@ -1,0 +1,17 @@
+abbreviation: SB
+available: true
+classes: 16
+colour: 126
+id: 46
+label: STAT
+longName: station building materials
+name: Station Building Materials
+penaltyLength: 250
+penaltyLowerBound: 5
+price: 6044
+sprite:
+  filename: cargoes/station-building-materials.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

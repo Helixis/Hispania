@@ -1,0 +1,17 @@
+abbreviation: BI
+available: true
+classes: 16
+colour: 244
+id: 15
+label: BANA
+longName: bananium ingot
+name: Bananium Ingot
+penaltyLength: 191
+penaltyLowerBound: 64
+price: 4029
+sprite:
+  filename: cargoes/bananium-ingot.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

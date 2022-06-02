@@ -1,0 +1,17 @@
+abbreviation: II
+available: true
+classes: 32
+colour: 155
+id: 30
+label: IRON
+longName: iron ingots
+name: Iron Ingots
+penaltyLength: 64
+penaltyLowerBound: 8
+price: 4893
+sprite:
+  filename: cargoes/iron-ingots.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

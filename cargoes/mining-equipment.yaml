@@ -1,0 +1,17 @@
+abbreviation: NE
+available: true
+classes: 544
+colour: 18
+id: 17
+label: MINE
+longName: mining equipment
+name: Mining Equipment
+penaltyLength: 255
+penaltyLowerBound: 0
+price: 4112
+sprite:
+  filename: cargoes/mining-equipment.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

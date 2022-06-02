@@ -1,0 +1,17 @@
+abbreviation: XF
+available: true
+classes: 160
+colour: 157
+id: 7
+label: XENO
+longName: xenofauna
+name: Xenofauna
+penaltyLength: 215
+penaltyLowerBound: 40
+price: 6291
+sprite:
+  filename: cargoes/xenofauna.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

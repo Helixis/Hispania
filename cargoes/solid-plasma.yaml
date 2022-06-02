@@ -1,0 +1,17 @@
+abbreviation: SP
+available: true
+classes: 2320
+colour: 141
+id: 9
+label: PLAS
+longName: solid plasma
+name: Solid Plasma
+penaltyLength: 240
+penaltyLowerBound: 15
+price: 4934
+sprite:
+  filename: cargoes/solid-plasma.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

@@ -1,0 +1,17 @@
+abbreviation: OR
+available: true
+classes: 16
+colour: 63
+id: 23
+label: UORE
+longName: unprocessed ore
+name: Unprocessed Ore
+penaltyLength: 215
+penaltyLowerBound: 40
+price: 3700
+sprite:
+  filename: cargoes/unprocessed-ore.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

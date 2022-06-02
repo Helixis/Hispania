@@ -1,0 +1,17 @@
+abbreviation: GD
+available: true
+classes: 16
+colour: 190
+id: 1
+label: GOLD
+longName: gold ingots
+name: Gold Ingots
+penaltyLength: 48
+penaltyLowerBound: 24
+price: 4482
+sprite:
+  filename: cargoes/gold-ingots.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

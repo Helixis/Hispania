@@ -1,0 +1,17 @@
+abbreviation: RD
+available: true
+classes: 32
+colour: 153
+id: 13
+label: DIAM
+longName: refined diamonds
+name: Refined Diamonds
+penaltyLength: 235
+penaltyLowerBound: 20
+price: 4975
+sprite:
+  filename: cargoes/refined-diamonds.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

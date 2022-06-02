@@ -1,0 +1,17 @@
+abbreviation: BM
+available: true
+classes: 8
+colour: 148
+id: 14
+label: BSME
+longName: bluespace mesh
+name: Bluespace Mesh
+penaltyLength: 215
+penaltyLowerBound: 40
+price: 3536
+sprite:
+  filename: cargoes/bluespace-mesh.png
+  left: 0
+  top: 0
+unitName: Crates
+weight: 6

@@ -1,0 +1,17 @@
+abbreviation: UR
+available: true
+classes: 288
+colour: 85
+id: 4
+label: URAN
+longName: uranium rods
+name: Uranium Rods
+penaltyLength: 248
+penaltyLowerBound: 7
+price: 5756
+sprite:
+  filename: cargoes/uranium-rods.png
+  left: 0
+  top: 0
+unitName: Tonnes
+weight: 16

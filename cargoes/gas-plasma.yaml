@@ -1,0 +1,17 @@
+abbreviation: GP
+available: true
+classes: 320
+colour: 141
+id: 10
+label: GPLA
+longName: gas plasma
+name: Gas Plasma
+penaltyLength: 237
+penaltyLowerBound: 18
+price: 4852
+sprite:
+  filename: cargoes/gas-plasma.png
+  left: 0
+  top: 0
+unitName: Litres
+weight: 16
