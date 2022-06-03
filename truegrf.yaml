@@ -1,6 +1,6 @@
-description: Your first NewGRF based on FIRS4 Steeltown
-grfid: TRU1
+description: Mod based on SS13 cargos for Hispania
+grfid: HIS1
 license: GPL-2.0
-name: TrueGRF
+name: Hispania SS13 mod
 url: https://github.com/Helixis/hispania
 version: 4
