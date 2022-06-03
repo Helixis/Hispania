@@ -19,12 +19,6 @@ callbacks: |
       total_produced_cargo_available integer
   }
 
-  accept_cargo_types ctt:COAL [] 8 =
-  prod_cargo_types ctt:COKE [] 6 =
-  prod_cargo_types ctt:CTAR [] 1 =
-  prod_cargo_types ctt:SULP [] 1 =
-
-
   /*
    The following is a replication of what FIRS is doing for a secondary industry.
    See: https://github.com/andythenorth/firs/blob/4.4.0/src/templates/produce_secondary.pynml

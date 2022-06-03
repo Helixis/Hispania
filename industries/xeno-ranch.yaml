@@ -42,9 +42,6 @@ callbacks: |
 
   supply_requirement 8 =
 
-  accept_cargo_types ctt:FMSP [] 1 =
-  prod_cargo_types ctt:FOOD [] 14 =
-
 
   /*
    The following is a replication of what FIRS is doing for a primary industry.

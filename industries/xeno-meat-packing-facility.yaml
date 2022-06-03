@@ -19,10 +19,6 @@ callbacks: |
       total_produced_cargo_available integer
   }
 
-  accept_cargo_types ctt:SAND [] 6 =
-  accept_cargo_types ctt:SASH [] 2 =
-  prod_cargo_types ctt:GLAS [] 8 =
-
 
   /*
    The following is a replication of what FIRS is doing for a secondary industry.

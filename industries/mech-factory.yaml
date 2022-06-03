@@ -19,15 +19,6 @@ callbacks: |
       total_produced_cargo_available integer
   }
 
-  accept_cargo_types ctt:VPTS [] 2 =
-  accept_cargo_types ctt:VBOD [] 2 =
-  accept_cargo_types ctt:VENG [] 2 =
-  accept_cargo_types ctt:TYRE [] 2 =
-  prod_cargo_types ctt:VEHI [] 6 =
-  prod_cargo_types ctt:ENSP [] 1 =
-  prod_cargo_types ctt:FMSP [] 1 =
-
-
   /*
    The following is a replication of what FIRS is doing for a secondary industry.
    See: https://github.com/andythenorth/firs/blob/4.4.0/src/templates/produce_secondary.pynml

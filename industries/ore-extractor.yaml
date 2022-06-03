@@ -42,10 +42,6 @@ callbacks: |
 
   supply_requirement 8 =
 
-  accept_cargo_types ctt:ENSP [] 1 =
-  prod_cargo_types ctt:COAL [] 20 =
-
-
   /*
    The following is a replication of what FIRS is doing for a primary industry.
    See: https://github.com/andythenorth/firs/blob/4.4.0/src/templates/produce_primary.pynml
