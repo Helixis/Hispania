@@ -105,8 +105,6 @@ cargoAcceptance:
 - SOAP
 cargoProduction:
 - ENSP
-- STSE
-- STWR
 colour: 43
 fundCostMultiplier: 120
 id: 30

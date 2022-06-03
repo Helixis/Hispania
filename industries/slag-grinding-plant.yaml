@@ -99,7 +99,6 @@ callbacks: |
 cargoAcceptance:
 - SLAG
 cargoProduction:
-- CMNT
 - FMSP
 colour: 19
 fundCostMultiplier: 100

@@ -43,29 +43,34 @@ callbacks: |
   }
 cargoAcceptance:
 - FOOD
+- MECH
+- O2__
+- DIAM
+- STAT
+- WEAP
 cargoProduction: []
 colour: 168
 fundCostMultiplier: 15
 id: 15
 layout:
 - - - 0
-name: General Store
+name: Station Supply
 placement: in-town
 probabilityInGame: 12
 probabilityMapGen: 24
-prospectChance: 75
+prospectChance: 0
 tiles:
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/general-store/2.png
+      filename: industries/station-supply/2.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/general-store/1.png
+      filename: industries/station-supply/1.png
       left: -31
       top: -18
 type: tertiary

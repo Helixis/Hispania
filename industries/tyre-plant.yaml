@@ -98,11 +98,7 @@ callbacks: |
   cb:production_change_random def{
       result:value 0 =
   }
-cargoAcceptance:
-- CBLK
-- RUBR
-- STWR
-- SULP
+cargoAcceptance: []
 cargoProduction:
 - TYRE
 colour: 143

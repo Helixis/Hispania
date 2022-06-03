@@ -145,8 +145,7 @@ callbacks: |
   }
 cargoAcceptance:
 - ENSP
-cargoProduction:
-- IORE
+cargoProduction: []
 colour: 55
 fundCostMultiplier: 232
 id: 17

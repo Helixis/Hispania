@@ -146,7 +146,7 @@ callbacks: |
 cargoAcceptance:
 - FMSP
 cargoProduction:
-- FOOD
+- XENO
 colour: 85
 fundCostMultiplier: 49
 id: 14
@@ -191,7 +191,7 @@ layout:
     - 2
     - -1
     - 5
-name: Farm
+name: Xeno Ranch
 placement: anywhere
 probabilityInGame: 3
 probabilityMapGen: 15
@@ -205,7 +205,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/farm/1.png
+      filename: industries/xeno-ranch/1.png
       left: -31
       top: -21
 - sprites:
@@ -216,7 +216,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/farm/2.png
+      filename: industries/xeno-ranch/2.png
       left: -31
       top: -21
 - sprites:
@@ -227,7 +227,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/farm/3.png
+      filename: industries/xeno-ranch/3.png
       left: -31
       top: -21
 - sprites:
@@ -238,7 +238,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/farm/4.png
+      filename: industries/xeno-ranch/4.png
       left: -31
       top: -21
 - sprites:
@@ -249,7 +249,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/farm/5.png
+      filename: industries/xeno-ranch/5.png
       left: -31
       top: -21
 - sprites:
@@ -260,7 +260,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/farm/6.png
+      filename: industries/xeno-ranch/6.png
       left: -31
       top: -21
 - sprites:
@@ -271,7 +271,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/farm/7.png
+      filename: industries/xeno-ranch/7.png
       left: -31
       top: -21
 - sprites:
@@ -282,7 +282,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/farm/8.png
+      filename: industries/xeno-ranch/8.png
       left: -31
       top: -21
 type: primary

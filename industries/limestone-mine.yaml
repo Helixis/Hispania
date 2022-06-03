@@ -145,8 +145,7 @@ callbacks: |
   }
 cargoAcceptance:
 - ENSP
-cargoProduction:
-- LIME
+cargoProduction: []
 colour: 69
 fundCostMultiplier: 232
 id: 20

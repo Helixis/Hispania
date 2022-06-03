@@ -156,11 +156,7 @@ cargoAcceptance:
 - LYE_
 - STSE
 cargoProduction:
-- SOAP
-- POWR
 - ENSP
-- COAT
-- ZINC
 colour: 37
 fundCostMultiplier: 152
 id: 29

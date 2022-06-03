@@ -19,10 +19,13 @@ callbacks: |
       total_produced_cargo_available integer
   }
 
-  accept_cargo_types ctt:CSTI [] 4 =
-  accept_cargo_types ctt:ALUM [] 2 =
-  accept_cargo_types ctt:SAND [] 2 =
-  prod_cargo_types ctt:VENG [] 6 =
+  accept_cargo_types ctt:VPTS [] 2 =
+  accept_cargo_types ctt:VBOD [] 2 =
+  accept_cargo_types ctt:VENG [] 2 =
+  accept_cargo_types ctt:TYRE [] 2 =
+  prod_cargo_types ctt:VEHI [] 6 =
+  prod_cargo_types ctt:ENSP [] 1 =
+  prod_cargo_types ctt:FMSP [] 1 =
 
 
   /*
@@ -98,49 +101,45 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
-- ALUM
-- CSTI
-- SAND
+- GLAS
+- GOLD
+- SILV
+- TITA
+- URAN
 cargoProduction:
-- VENG
-colour: 45
-fundCostMultiplier: 120
-id: 13
+- MECH
+colour: 141
+fundCostMultiplier: 145
+id: 0
 layout:
-- - - 2
-    - 2
-    - 2
-  - - 2
-    - 2
+- - - 0
     - 0
-  - - 4
+    - 0
+    - 5
     - 4
+  - - 1
     - 1
+    - 1
+    - 5
+    - 6
+  - - 1
+    - 1
+    - 1
+    - 5
+    - 6
   - - 3
+    - 2
     - 3
     - 6
-  - - 4
-    - 5
-    - 6
-- - - -1
-    - 0
-    - 3
-    - 3
-  - - -1
-    - 1
-    - 6
-    - 4
-  - - 2
-    - 2
-    - 5
-    - 3
-  - - 2
-    - 2
-    - 5
-    - 2
-name: Engine Plant
+    - 9
+  - - 7
+    - 8
+    - 7
+    - 8
+    - 9
+name: Mech Factory
 placement: anywhere
-probabilityInGame: 0
+probabilityInGame: 1
 probabilityMapGen: 5
 prospectChance: 0
 tiles:
@@ -148,91 +147,130 @@ tiles:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/engine-plant/2.png
+      filename: industries/mech-factory/2.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/engine-plant/1.png
+      filename: industries/mech-factory/1.png
       left: -31
-      top: -39
+      top: -49
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/engine-plant/4.png
+      filename: industries/mech-factory/4.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/engine-plant/3.png
+      filename: industries/mech-factory/3.png
       left: -31
-      top: -39
+      top: -49
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/engine-plant/6.png
+      filename: industries/mech-factory/6.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/engine-plant/5.png
+      filename: industries/mech-factory/5.png
       left: -31
-      top: -39
+      top: -49
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/engine-plant/8.png
+      filename: industries/mech-factory/8.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/engine-plant/7.png
+      filename: industries/mech-factory/7.png
       left: -31
-      top: -20
+      top: -49
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/engine-plant/10.png
+      filename: industries/mech-factory/10.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/engine-plant/9.png
+      filename: industries/mech-factory/9.png
       left: -31
-      top: -20
+      top: -49
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/engine-plant/12.png
+      filename: industries/mech-factory/12.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/engine-plant/11.png
+      filename: industries/mech-factory/11.png
       left: -31
-      top: 0
+      top: -49
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/engine-plant/14.png
+      filename: industries/mech-factory/14.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/engine-plant/13.png
+      filename: industries/mech-factory/13.png
+      left: -31
+      top: -49
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      filename: industries/mech-factory/16.png
       left: -31
       top: 0
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/mech-factory/15.png
+      left: -31
+      top: -49
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      filename: industries/mech-factory/18.png
+      left: -31
+      top: 0
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/mech-factory/17.png
+      left: -31
+      top: -49
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      filename: industries/mech-factory/20.png
+      left: -31
+      top: 0
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/mech-factory/19.png
+      left: -31
+      top: -49
 type: secondary

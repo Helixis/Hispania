@@ -145,10 +145,9 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
-- ENSP
-cargoProduction:
-- POTA
-- SALT
+- SLIM
+- CREW
+cargoProduction: []
 colour: 125
 fundCostMultiplier: 232
 id: 22
@@ -213,11 +212,11 @@ layout:
   - - 3
     - -1
     - 2
-name: Potash Mine
+name: Xeno Lab
 placement: anywhere
 probabilityInGame: 4
 probabilityMapGen: 7
-prospectChance: 75
+prospectChance: 0
 tiles:
 - sprites:
   - alwaysDraw: true
@@ -227,7 +226,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/potash-mine/1.png
+      filename: industries/xeno-lab/1.png
       left: -31
       top: -88
 - sprites:
@@ -238,7 +237,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/potash-mine/2.png
+      filename: industries/xeno-lab/2.png
       left: -31
       top: -88
 - sprites:
@@ -249,7 +248,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/potash-mine/3.png
+      filename: industries/xeno-lab/3.png
       left: -31
       top: -90
 - sprites:
@@ -260,7 +259,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/potash-mine/4.png
+      filename: industries/xeno-lab/4.png
       left: -31
       top: -74
 - sprites:
@@ -271,7 +270,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/potash-mine/5.png
+      filename: industries/xeno-lab/5.png
       left: -31
       top: -90
 - sprites:
@@ -282,7 +281,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/potash-mine/6.png
+      filename: industries/xeno-lab/6.png
       left: -31
       top: -90
 - sprites:
@@ -293,7 +292,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/potash-mine/7.png
+      filename: industries/xeno-lab/7.png
       left: -31
       top: -90
 - sprites:
@@ -304,7 +303,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/potash-mine/8.png
+      filename: industries/xeno-lab/8.png
       left: -31
       top: -90
 - sprites:
@@ -315,7 +314,7 @@ tiles:
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/potash-mine/9.png
+      filename: industries/xeno-lab/9.png
       left: -31
       top: -90
-type: primary
+type: tertiary

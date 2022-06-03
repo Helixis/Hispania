@@ -19,13 +19,8 @@ callbacks: |
       total_produced_cargo_available integer
   }
 
-  accept_cargo_types ctt:SCMT [] 4 =
-  accept_cargo_types ctt:FECR [] 2 =
-  accept_cargo_types ctt:QLME [] 1 =
-  accept_cargo_types ctt:O2__ [] 1 =
-  prod_cargo_types ctt:STCB [] 4 =
-  prod_cargo_types ctt:STST [] 2 =
-  prod_cargo_types ctt:SLAG [] 2 =
+  accept_cargo_types ctt:CTAR [] 8 =
+  prod_cargo_types ctt:CBLK [] 8 =
 
 
   /*
@@ -101,45 +96,41 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
-- FECR
-- O2__
-- QLME
-- SCMT
+- PLAC
 cargoProduction:
-- STCB
-- SLAG
-- STST
-colour: 186
-fundCostMultiplier: 160
-id: 12
+- SLIM
+colour: 178
+fundCostMultiplier: 120
+id: 6
 layout:
 - - - 1
+    - 1
+    - 4
+  - - 0
     - 0
-    - 8
-    - 8
-  - - 1
-    - 0
-    - 8
-    - 8
-  - - 1
-    - 0
-    - 7
-    - 6
-  - - 1
-    - 0
-    - -1
-    - -1
-  - - 2
     - 3
-    - 5
+  - - 2
+    - 2
+    - -1
+- - - 0
+    - 0
+    - 1
     - 4
   - - 2
+    - 2
     - 3
-    - 3
-    - 5
-name: Electric Arc Furnace
+    - -1
+- - - 0
+    - 0
+  - - 2
+    - 2
+  - - 1
+    - 4
+  - - 3
+    - -1
+name: Slime Lab
 placement: anywhere
-probabilityInGame: 1
+probabilityInGame: 0
 probabilityMapGen: 5
 prospectChance: 0
 tiles:
@@ -147,117 +138,65 @@ tiles:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/electric-arc-furnace/2.png
+      filename: industries/slime-lab/2.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/electric-arc-furnace/1.png
+      filename: industries/slime-lab/1.png
       left: -31
-      top: -45
+      top: -83
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/electric-arc-furnace/4.png
+      filename: industries/slime-lab/4.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/electric-arc-furnace/3.png
+      filename: industries/slime-lab/3.png
       left: -31
-      top: -45
+      top: -83
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/electric-arc-furnace/6.png
+      filename: industries/slime-lab/6.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/electric-arc-furnace/5.png
+      filename: industries/slime-lab/5.png
       left: -31
-      top: -32
+      top: -83
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/electric-arc-furnace/8.png
+      filename: industries/slime-lab/8.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/electric-arc-furnace/7.png
+      filename: industries/slime-lab/7.png
       left: -31
-      top: -32
+      top: -83
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/electric-arc-furnace/10.png
+      filename: industries/slime-lab/10.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/electric-arc-furnace/9.png
+      filename: industries/slime-lab/9.png
       left: -31
-      top: -32
-- sprites:
-  - alwaysDraw: true
-    drawType: recolour
-    sprite:
-      filename: industries/electric-arc-furnace/12.png
-      left: -31
-      top: 0
-  - alwaysDraw: false
-    drawType: recolour
-    sprite:
-      filename: industries/electric-arc-furnace/11.png
-      left: -31
-      top: -32
-- sprites:
-  - alwaysDraw: true
-    drawType: recolour
-    sprite:
-      filename: industries/electric-arc-furnace/14.png
-      left: -31
-      top: 0
-  - alwaysDraw: false
-    drawType: recolour
-    sprite:
-      filename: industries/electric-arc-furnace/13.png
-      left: -31
-      top: -32
-- sprites:
-  - alwaysDraw: true
-    drawType: recolour
-    sprite:
-      filename: industries/electric-arc-furnace/16.png
-      left: -31
-      top: 0
-  - alwaysDraw: false
-    drawType: recolour
-    sprite:
-      filename: industries/electric-arc-furnace/15.png
-      left: -31
-      top: -32
-- sprites:
-  - alwaysDraw: true
-    drawType: recolour
-    sprite:
-      filename: industries/electric-arc-furnace/18.png
-      left: -31
-      top: 0
-  - alwaysDraw: false
-    drawType: recolour
-    sprite:
-      filename: industries/electric-arc-furnace/17.png
-      left: -31
-      top: -32
+      top: -83
 type: secondary

@@ -42,7 +42,7 @@ callbacks: |
 
   supply_requirement 8 =
 
-  prod_cargo_types ctt:SCMT [] 32 =
+  prod_cargo_types ctt:O2__ [] 14 =
 
 
   /*
@@ -142,160 +142,150 @@ callbacks: |
   cb:production_change_random def{
       result:value 0 =
   }
-cargoAcceptance: []
+cargoAcceptance:
+- CREW
 cargoProduction:
-- SCMT
-colour: 64
-fundCostMultiplier: 101
-id: 18
+- O2__
+colour: 189
+fundCostMultiplier: 45
+id: 11
 layout:
-- - - -1
-    - -1
-    - -1
-    - -1
-    - 4
-  - - -1
-    - 1
-    - 0
-    - 3
+- - - 1
     - 2
-  - - 1
-    - 8
-    - 7
+    - 3
+    - 4
+  - - 3
+    - 0
     - 6
     - 5
-- - - -1
-    - -1
+- - - 4
+    - 1
+    - 2
+    - 3
+  - - 5
+    - 6
+    - 0
+    - 3
+- - - 1
+    - 2
+  - - 3
+    - 0
+  - - 3
+    - 6
+  - - 5
     - 4
+- - - 5
+    - 4
+  - - 1
+    - 6
+  - - 2
+    - 3
+  - - 0
+    - 3
+- - - 1
+    - 2
+    - 3
   - - 6
     - 0
-    - 2
-  - - -1
-    - 7
-    - 5
-- - - -1
-    - -1
-    - -1
-    - -1
-    - 4
-  - - -1
-    - 1
-    - 0
     - 3
-    - 2
-  - - -1
+  - - 5
+    - 4
     - -1
-    - -1
-    - -1
-    - -1
-  - - 1
-    - 8
-    - 7
-    - 6
-    - 5
-name: Scrap Yard
+name: Oxygen Plant
 placement: anywhere
-probabilityInGame: 3
-probabilityMapGen: 14
+probabilityInGame: 4
+probabilityMapGen: 7
 prospectChance: 75
 tiles:
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 2022
+      filename: industries/oxygen-plant/2.png
+      left: -31
+      top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/scrap-yard/1.png
+      filename: industries/oxygen-plant/1.png
       left: -31
-      top: -24
+      top: -73
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 2022
+      filename: industries/oxygen-plant/4.png
+      left: -31
+      top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/scrap-yard/2.png
+      filename: industries/oxygen-plant/3.png
       left: -31
-      top: -24
+      top: -32
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 2022
+      filename: industries/oxygen-plant/6.png
+      left: -31
+      top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/scrap-yard/3.png
+      filename: industries/oxygen-plant/5.png
       left: -31
-      top: -24
+      top: -52
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 2022
+      filename: industries/oxygen-plant/8.png
+      left: -31
+      top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/scrap-yard/4.png
+      filename: industries/oxygen-plant/7.png
       left: -31
-      top: -24
+      top: -32
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 2022
+      filename: industries/oxygen-plant/10.png
+      left: -31
+      top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/scrap-yard/5.png
+      filename: industries/oxygen-plant/9.png
       left: -31
-      top: -24
+      top: -32
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 2022
+      filename: industries/oxygen-plant/12.png
+      left: -31
+      top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/scrap-yard/6.png
+      filename: industries/oxygen-plant/11.png
       left: -31
-      top: -24
+      top: -32
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      id: 2022
+      filename: industries/oxygen-plant/14.png
+      left: -31
+      top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/scrap-yard/7.png
+      filename: industries/oxygen-plant/13.png
       left: -31
-      top: -24
-- sprites:
-  - alwaysDraw: true
-    drawType: recolour
-    sprite:
-      id: 2022
-  - alwaysDraw: false
-    drawType: recolour
-    sprite:
-      filename: industries/scrap-yard/8.png
-      left: -31
-      top: -24
-- sprites:
-  - alwaysDraw: true
-    drawType: recolour
-    sprite:
-      id: 2022
-  - alwaysDraw: false
-    drawType: recolour
-    sprite:
-      filename: industries/scrap-yard/9.png
-      left: -31
-      top: -24
+      top: -32
 type: primary

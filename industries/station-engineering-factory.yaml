@@ -19,10 +19,13 @@ callbacks: |
       total_produced_cargo_available integer
   }
 
-  accept_cargo_types ctt:SALT [] 8 =
-  prod_cargo_types ctt:ACID [] 4 =
-  prod_cargo_types ctt:CHLO [] 2 =
-  prod_cargo_types ctt:LYE_ [] 2 =
+  accept_cargo_types ctt:IRON [] 4 =
+  accept_cargo_types ctt:MNO2 [] 2 =
+  accept_cargo_types ctt:QLME [] 1 =
+  accept_cargo_types ctt:O2__ [] 1 =
+  prod_cargo_types ctt:STCB [] 4 =
+  prod_cargo_types ctt:STAL [] 2 =
+  prod_cargo_types ctt:SLAG [] 2 =
 
 
   /*
@@ -98,107 +101,114 @@ callbacks: |
       result:value 0 =
   }
 cargoAcceptance:
-- SALT
+- GLAS
+- IRON
+- TITA
 cargoProduction:
-- ACID
-- CHLO
-- LYE_
-colour: 191
-fundCostMultiplier: 170
-id: 7
+- STAT
+colour: 49
+fundCostMultiplier: 160
+id: 1
 layout:
-- - - 4
+- - - 3
+    - 3
     - 3
     - 0
-    - 1
-    - 2
+  - - 3
+    - 3
+    - 3
+    - 6
   - - 4
-    - 3
-    - 0
-    - 1
-    - 0
-  - - 5
-    - 7
-    - 7
-    - 6
-    - 6
-- - - -1
-    - 0
-    - 6
+    - 4
+    - 4
+    - 5
   - - 2
     - 1
-    - 6
-  - - 0
-    - 0
+    - 1
+    - -1
+  - - 9
+    - 8
+    - -1
+    - 8
+  - - 9
     - 7
-  - - 4
-    - 3
-    - 5
-  - - 4
-    - 3
-    - 5
+    - 7
+    - 8
 - - - 4
-    - 3
+    - 4
+    - 4
     - 5
+    - 9
+  - - 4
+    - 4
+    - 4
+    - 5
+    - 9
+  - - 3
+    - 3
+    - 3
+    - -1
+    - 0
+  - - 2
+    - 1
+    - 1
+    - 6
+    - -1
+  - - 9
+    - 7
+    - 8
+    - -1
+    - 7
+- - - 7
+    - 7
+    - 7
+    - 8
+    - 7
   - - 4
     - 3
-    - 7
-  - - 0
+    - 3
+    - -1
+    - 9
+  - - 4
+    - 3
+    - 3
+    - 6
+    - 9
+  - - 4
+    - 4
+    - 4
+    - 5
+    - 8
+  - - 2
+    - 1
+    - 1
+    - -1
     - 0
+- - - 4
+    - 4
+    - 4
+    - 4
+    - 5
+    - 8
+  - - 4
+    - 4
+    - 4
+    - 4
+    - 5
+    - 6
+  - - 3
+    - 3
+    - 3
+    - -1
+    - -1
     - 7
   - - 1
     - 1
-    - 6
-  - - 0
-    - 2
-    - 6
-- - - 6
-    - 1
-    - 0
-    - 4
-    - 3
-    - 2
-    - 5
-  - - 6
-    - 1
-    - 0
-    - 4
-    - 3
-    - 7
-    - 5
-- - - 0
     - 2
     - 0
-    - 6
-  - - 0
-    - 1
-    - 0
-    - 6
-  - - 4
-    - 3
-    - 7
-    - 7
-  - - 4
-    - 3
-    - 5
-    - 5
-- - - 4
-    - 3
-    - 4
-    - 3
-  - - 1
-    - 0
-    - 0
-    - 7
-  - - 6
-    - 2
-    - 1
-    - 5
-  - - 6
-    - 0
-    - 0
-    - 5
-name: Chlor-alkali Plant
+    - 9
+    - 9
+name: Station Engineering Factory
 placement: anywhere
 probabilityInGame: 0
 probabilityMapGen: 5
@@ -208,104 +218,130 @@ tiles:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/chlor-alkali-plant/2.png
+      filename: industries/station-engineering-factory/2.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/chlor-alkali-plant/1.png
+      filename: industries/station-engineering-factory/1.png
       left: -31
-      top: -83
+      top: -90
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/chlor-alkali-plant/4.png
+      filename: industries/station-engineering-factory/4.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/chlor-alkali-plant/3.png
+      filename: industries/station-engineering-factory/3.png
       left: -31
-      top: -83
+      top: -90
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/chlor-alkali-plant/6.png
+      filename: industries/station-engineering-factory/6.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/chlor-alkali-plant/5.png
+      filename: industries/station-engineering-factory/5.png
       left: -31
-      top: -83
+      top: -90
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/chlor-alkali-plant/8.png
+      filename: industries/station-engineering-factory/8.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/chlor-alkali-plant/7.png
+      filename: industries/station-engineering-factory/7.png
       left: -31
-      top: -83
+      top: -90
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/chlor-alkali-plant/10.png
+      filename: industries/station-engineering-factory/10.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/chlor-alkali-plant/9.png
+      filename: industries/station-engineering-factory/9.png
       left: -31
-      top: -83
+      top: -90
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/chlor-alkali-plant/12.png
+      filename: industries/station-engineering-factory/12.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/chlor-alkali-plant/11.png
+      filename: industries/station-engineering-factory/11.png
       left: -31
-      top: -35
+      top: -90
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/chlor-alkali-plant/14.png
+      filename: industries/station-engineering-factory/14.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/chlor-alkali-plant/13.png
+      filename: industries/station-engineering-factory/13.png
       left: -31
-      top: -35
+      top: -90
 - sprites:
   - alwaysDraw: true
     drawType: recolour
     sprite:
-      filename: industries/chlor-alkali-plant/16.png
+      filename: industries/station-engineering-factory/16.png
       left: -31
       top: 0
   - alwaysDraw: false
     drawType: recolour
     sprite:
-      filename: industries/chlor-alkali-plant/15.png
+      filename: industries/station-engineering-factory/15.png
       left: -31
-      top: -35
+      top: -90
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      filename: industries/station-engineering-factory/18.png
+      left: -31
+      top: 0
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/station-engineering-factory/17.png
+      left: -31
+      top: -90
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      filename: industries/station-engineering-factory/20.png
+      left: -31
+      top: 0
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/station-engineering-factory/19.png
+      left: -31
+      top: -90
 type: secondary
