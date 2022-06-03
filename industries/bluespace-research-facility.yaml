@@ -19,10 +19,8 @@ callbacks: |
       total_produced_cargo_available integer
   }
 
-  accept_cargo_types ctt:STSH [] 4 =
-  accept_cargo_types ctt:COAT [] 2 =
-  accept_cargo_types ctt:GLAS [] 2 =
-  prod_cargo_types ctt:VBOD [] 8 =
+  accept_cargo_types ctt:BSME [] 4 =
+  prod_cargo_types ctt:BSEQ [] 8 =
 
 
   /*
