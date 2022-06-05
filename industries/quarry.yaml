@@ -144,7 +144,6 @@ cargoAcceptance:
 - ENSP
 cargoProduction:
 - SAND
-- LIME
 colour: 194
 fundCostMultiplier: 210
 id: 23
